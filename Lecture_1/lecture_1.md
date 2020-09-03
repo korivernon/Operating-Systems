@@ -49,3 +49,5 @@ A program keeps all of its data structures in memory.
 Read Memory (load)
 
 Write Memory (store)
+
+**Concurrency: Events occurring** 
