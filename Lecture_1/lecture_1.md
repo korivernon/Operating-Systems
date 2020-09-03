@@ -39,3 +39,13 @@ int main(int argc, char *argv[]){
     return 0'
 }
 ```
+
+## Virtualizing Memory
+
+The model of physical memory is an array of bytes. 
+
+A program keeps all of its data structures in memory. 
+
+Read Memory (load)
+
+Write Memory (store)
