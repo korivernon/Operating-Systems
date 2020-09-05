@@ -61,3 +61,8 @@ Read Memory (load)
 Write Memory (store)
 
 **Concurrency: Events occurring** 
+
+**Volatile:** C's volatile keyword is a qualifier that is applied to a variable when it is declared. It tells the compiler that the value of the variable may change at any time--without any action being taken by the code the compiler finds nearby. The implications of this are quite serious.
+
+```void *function(void *arg)```
+It's just a way of creating a 'harmless' reference to the variable. The compiler doesn't complain about an unused variable, because you did reference the value, and it doesn't complain that you didn't do anything with the value of the expression var because you explicitly cast it to void (nothing), indicating that you didn't care about the value.
