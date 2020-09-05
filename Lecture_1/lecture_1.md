@@ -40,6 +40,16 @@ int main(int argc, char *argv[]){
 }
 ```
 
+Confusing stuff... ```int main(int argc, char *argv[])```
+
+What ```argc``` does is count the amount of arguments in the command line. ```argc``` is int and stores number of command-line arguments passed by the user including the name of the program. 
+
+The ```*argv[]``` gathers all of the references to the string in the command line. ```argv[]```  is array of character pointers listing all the arguments.
+
+The ```Spin(const int time)``` function sleeps for one second when it's called. 
+
+
+
 ## Virtualizing Memory
 
 The model of physical memory is an array of bytes. 

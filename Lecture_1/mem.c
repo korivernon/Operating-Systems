@@ -1,4 +1,11 @@
 #include <unistd.h>
+#include <stdlib.h>
+#include <sys/time.h>
+#include <assert.h>
+
+void Spin(const int time){
+    sleep(time);
+}
 
 int main(int argc, char *argv[]){
     int *p = malloc(sizeof(int));
