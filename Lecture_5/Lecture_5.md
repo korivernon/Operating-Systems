@@ -17,3 +17,7 @@ To declare: `int *foo;`
 - Two new operators
 - `&x` : get the address of x
 - `*p` : access the value of the pointed-to-variable (dereferencing)
+
+Boolean and Characters are 1 byte; Integers are 4 bytes...
+
+
