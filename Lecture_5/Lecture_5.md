@@ -20,4 +20,13 @@ To declare: `int *foo;`
 
 Boolean and Characters are 1 byte; Integers are 4 bytes...
 
+32 Bit architecture = 4 bytes
 
+
+## Call by Value vs Call by Reference
+
+**Write a function called swap that given two integers, switches it's values**
+
+## Structs
+
+Structs cannot have methods or functions. 
